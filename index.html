@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rukky</title>
+
+    <!--
+    - favicon
+  -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="assets/images/images/avatar-3.png"
+              alt="Subahm Sharma"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="rukky">Oghenerukevwe Ayoko</h1>
+
+            <p class="title">Web Developer | Reactjs Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="ayokooghenerukevwe2222@gmail.com" class="contact-link"
+                  >ayokooghenerukevwe2222@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+2349136605067" class="contact-link"
+                  >+2349136605067</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Nigeria</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/RuRuuuu"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://twitter.com/Rukevweee"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/oghenerukevweee/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              My name is Ayoko Oghenerukevwe, I'm a dedicated and highly
+              motivated Frontend Developer(jnr) who is Passionate about creating
+              user-friendly and visually appealing web applications. Over the
+              past one year, I have made a smooth learning transition from Human
+              Physiology(first degree) to frontend development.
+            </p>
+
+            <p>
+              A year ago I decided to take the self-taught route, My learning
+              journey will not be complete if there is no mention of
+              HerTechTrail COHORT 5 & 6 2022-2023. Although my learning journey
+              still continues as I hope to work with professionals as an intern
+              in order to learn more and gain pratical work experience
+            </p>
+            <p>
+              At the center of my heart is the love for solving problems and
+              playing a significant role being part of a team. Beyond my
+              techinical skills, i possess excellent communication skills, I am
+              a quick learner, highly organized and detail-oriented.
+            </p>
+            <p>
+              I love to read books and engage in meaningful conversations that
+              would lead to growth.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <!-- <h3 class="h3 service-title">What I do</h3> -->
+
+            <div class="service-item">
+              <div class="service-content-box">
+                <!-- <h4 class="h4 service-item-title">Web development</h4> -->
+                <img
+                  src="assets/images/images/rukiess.jpg"
+                  alt="myimage"
+                  class="rukky"
+                />
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Revelant Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Frontend Developer
+                  <p class="timeline-text">
+                    Hertechtrail Academy Capstone Project
+                  </p>
+                </h4>
+
+                <p class="timeline-text">
+                  • Collaborated with designers to discuss feature design and
+                  integration strategies
+                </p>
+                <p class="timeline-text">
+                  • Translated Figma designs into responsive frontend interfaces
+                  using React and TailwindCSS.
+                </p>
+                <p class="timeline-text">
+                  • Leveraged Github for streamlined code review and enhanced
+                  team collaboration.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Frontend Web Developer
+                  <p class="timeline-text">Personal Project</p>
+                </h4>
+
+                <p class="timeline-text">
+                  • Demonstrated proficiency as a frontend developer by
+                  successfully completing an intermediate levelchallenge on
+                  frontendmentor.io.
+                </p>
+                <p class="timeline-text">
+                  • Implemented JavaScript and CSS skills to add animated
+                  features to the project.
+                </p>
+              </li>
+              <h3 class="h3">Other Experience</h3>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Turf Accountant
+                  <p class="timeline-text">Bet9ja</p>
+                </h4>
+
+                <p class="timeline-text">
+                  • Assisted clients with invoice processing.
+                </p>
+                <p class="timeline-text">
+                  • Resolved customers queries and dissatisfaction.
+                </p>
+                <p class="timeline-text">
+                  • Convince potential clients on the opportunities of getting
+                  to invest with us.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML</h5>
+                  <data value="95">90%</data>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CSS</h5>
+                  <data value="95">80%</data>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SCSS</h5>
+                  <data value="95">60%</data>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TailwindCSS</h5>
+                  <data value="60">70%</data>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="70">70%</data>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Reactjs</h5>
+                  <data value="70">50%</data>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git/Github</h5>
+                  <data value="70">70%</data>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Responsive Design</h5>
+                  <data value="70">80%</data>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://teeket-rukky.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/images/image11.png"
+                      alt="teeket"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">teeket</h3>
+
+                  <p class="project-category">
+                    technologies used - Reactjs and Tailwindcss
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://space-tourixm.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/images/image22.png"
+                      alt="projectimage"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Space-toursim</h3>
+
+                  <p class="project-category">
+                    technologies used - JavaScript and css
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://rukkytodo.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/images/image33.png"
+                      alt="todo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Todo Web-app</h3>
+
+                  <p class="project-category">
+                    technologies used - JavaScript and css
+                  </p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://moonlit-centaur-86684b.netlify.app/"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <img
+                      src="assets/images/images/image44.png"
+                      alt="kuda"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Cloned kuda Signup page</h3>
+
+                  <p class="project-category">
+                    technologies used - Vanilla CSS and HTML
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" data-form-btn>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
