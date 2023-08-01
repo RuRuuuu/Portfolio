@@ -535,6 +535,8 @@ main {
 }
 .service-title {
   margin-bottom: 20px;
+
+  text-align: center;
 }
 
 .service-item {
@@ -997,6 +999,41 @@ main {
   display: block;
   animation: scaleUp 0.25s ease forwards;
 }
+.project-item-icon-box {
+  --scale: 0.8;
+
+  background: var(--jet);
+  color: var(--orange-yellow-crayola);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(var(--scale));
+  font-size: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  opacity: 0;
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.project-item > a:hover .project-item-icon-box {
+  --scale: 1;
+  opacity: 1;
+}
+
+.project-item-icon-box ion-icon {
+  --ionicon-stroke-width: 50px;
+}
+/*skill icon*/
+.skill-icon {
+  background: var(--jet);
+  color: var(--orange-yellow-crayola);
+}
+.skill-icon ion-icon {
+  --ionicon-stroke-width: 60px;
+}
+
+/*<ion-icon name="bulb-outline"></ion-icon>  for light-mode*/
 
 @keyframes scaleUp {
   0% {
